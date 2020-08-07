@@ -1,9 +1,12 @@
 # solidity_hw
 
-The purpose of this exercise was to create smart contracts using solidity. This was done using the tools of Metamask, Ganache, and Remix. A mnemonic phrase of choice was used to set up associated etherum wallets to use on the test net. 
+The purpose of this exercise was to create smart contracts using solidity. This was done using the tools of Metamask, Ganache, and Remix. A mnemonic phrase of choice was used to set up associated etherum wallets to use on the test net. These are the addresses on the local testnet that can receive ETH test transactions and can be viewed in Ganache.
 
-# Metamask Injected
-Metamask was required to act as an injected host with remix in order to reject or approve transaction types coming from remix. Metamask was connected to the primary ETH wallet and this wallet was prefunded on the Ropsten network.
+![TestNet Addresses](./testnet_addresses.png)
+
+
+# Metamask
+Metamask was required to act as an injected web3 environment host for Remix in order to reject or approve transaction types coming from remix. Metamask was connected to the primary ETH wallet and this wallet was prefunded on the Ropsten network. These ETH can be used to send transactions on the Ropsten testnet.
 
 # Ganache
 Ganache is the local ethereum blockchain test network we used for this process. To create the local blockchain testnet a new ethereum workspace was made and various wallet addresses were produced using the chosen mnemonic phrase. It was also specified that each account be prefunded with 100 ETH on the testnet.
